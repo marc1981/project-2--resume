@@ -100,6 +100,11 @@ var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img class="projectImage" src="%data%"><hr>';
 
+var HTMLdesignStart = '<div class="design-entry"></div>';
+var HTMLdesignTitle = '<div class="design-title">%data%</div>';
+var HTMLdesignSum = '<p><span class="design-description">Click On Image to View and Enlarge in New Window.</span><br>%data%</p><hr>';
+var HTMLdesignImage = '<a href="#" target="_blank"><img class="designImage" src="%data%"></a>';
+
 var HTMLschoolStart = '<div class="education-entry"></div>';
 var HTMLschoolName = '<a class="schoolName" href="#" target="_blank">%data%';
 var HTMLschoolDegree = ' -- %data%</a>';

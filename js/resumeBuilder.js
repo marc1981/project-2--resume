@@ -148,6 +148,56 @@ var projects = {
 
 				]
 			}
+
+
+var designs = {
+				"design_project" : [
+									{
+										"design_name" : "Holiday Cards",
+										"design_image" : "images/christmas-low-res.jpg",
+										"design_url" : "html/christmas.html",
+										"design_description" : "A Sample Christmas Card"
+									},
+									{
+										"design_name" : "More Holiday Cards",
+										"design_image" : "images/new-year-low-res.jpg",
+										"design_url" : "html/newyear.html",
+										"design_description" : "A Sample New Year's Greeting"
+									},
+									{
+										"design_name" : "Still More Holiday Cards",
+										"design_image" : "images/thanksgiving-low-res.jpg",
+										"design_url" : "html/thanksgiving.html",
+										"design_description" : "A Sample Thanksgiving Card"
+									},
+									{
+										"design_name" : "Banners",
+										"design_image" : "images/banner-low-res.png",
+										"design_url" : "html/banner.html",
+										"design_description" : "A Mock Banner (e.g. used on a brochure)"
+									},
+									{
+										"design_name" : "Simple GIF Animations",
+										"design_image" : "images/animation2.gif",
+										"design_url" : "html/robot.html",
+										"design_description" : "Robot GIF"
+									},
+									{
+										"design_name" : "Vector Graphics for Video Game Sprites",
+										"design_image" : "images/guitars-low-res.png",
+										"design_url" : "html/guitars.html",
+										"design_description" : "Guitars"
+									},
+									{
+										"design_name" : "Vector Cartoon Graphics",
+										"design_image" : "images/monster.jpg",
+										"design_url" : "html/monster.html",
+										"design_description" : "Cartoon Monster"
+									},
+								]
+
+							}
+
 /* Object containing connect information */
 var connectInfo = {
 					"github": '<a class="icons" href="https://github.com/marc1981" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>',
@@ -207,6 +257,19 @@ work.displayWork = function(){
 }
 
 work.displayWork();
+
+/* function to display designs in design tab */
+designs.displayDesign = function(){
+	for (design in designs.design_project){
+		$("#designArea").append(HTMLdesignStart);
+		var formattedDesignTitle = HTMLdesignTitle.replace("%data%", designs.design_project[design].design_name);
+		var formattedDesignImage = HTMLdesignImage.replace("#", designs.design_project[design].design_url).replace("%data%", designs.design_project[design].design_image);
+		var formattedDesignSum = HTMLdesignSum.replace("%data%", designs.design_project[design].design_description);
+		$(".design-entry:last").append(formattedDesignTitle + formattedDesignImage + formattedDesignSum);
+	};
+}
+
+designs.displayDesign();
 
 /*encapsulated function object -- used to display contact information*/
 bio.displayContact = function(){
