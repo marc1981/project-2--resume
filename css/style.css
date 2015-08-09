@@ -9,36 +9,41 @@
 
 
 * {
-  padding:0;
-  margin:0;
-  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-#main{
-  background-color: #C4C4C4;
+#main {
+  background-color: #c4c4c4;
 }
 
 .clearfix {
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry, .online-entry, .design-entry {
+.education-entry,
+.work-entry,
+.project-entry,
+.online-entry,
+.design-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-.project-entry, .design-entry{
+.project-entry,
+.design-entry{
   text-align: center;
 }
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #f5a623;
   line-height: 48px;
   display: inline;
 }
 
-#name{
+.name-alter {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
@@ -61,11 +66,14 @@ h3 {
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   line-height: 17px;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
   padding:10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -100,7 +108,8 @@ hr.eduSplit {
   margin: 5px 0 0 20px;
 }
 
-.project-title, .design-title{
+.project-title,
+.design-title{
   font-size: 1.3em;
   color: #000000;
   text-shadow: 1px 1px 1px white;
@@ -121,7 +130,7 @@ hr.eduSplit {
 
 .ui-widget-content a.onlineURL {
   margin-left: 20px;
-  color: #1199C3;
+  color: #1199c3;
 }
 
 .schoolName{
@@ -144,17 +153,17 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
   display: block;
 }
 
-a.icons {
-  color: #1199C3;
+.icons {
+  color: #1199c3;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  margin: -13px 0 0 0px;
+  margin-top: -13px;
   display: block;
   padding-top: 10px;
 }
@@ -162,35 +171,35 @@ a.icons {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #f3f3f3;
   line-height: 28px;
   margin-top: 10px;
 }
 
-#name-role{
+.role-name {
   padding: 50px 65px 65px 65px;
   text-align: center;
 }
 
-#skills{
+.skill-list {
   font-size: 1.4em;
   text-shadow: 1px 1px 3px black;
 }
 
-#skillsH3 {
+.skills-label {
   text-shadow: 1px 1px 3px black;
-  color: #1199C3;
+  color: #1199c3;
   text-align: center;
   margin-top: 25px;
   display: none;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #f5ae23;
 }
 
 .orange-text {
-  color: #1199C3;
+  color: #1199c3;
   text-shadow: 1px 1px 1px black;
   font-weight: 900;
   font-size: 1.1em;
@@ -202,7 +211,7 @@ a.icons {
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .gray {
@@ -246,7 +255,7 @@ a.icons {
   font-size: 1.4em;
   font-weight: 500;
   text-shadow: 1px 1px 3px black;
-  color: #1199C3;
+  color: #1199c3;
 }
 
 .flex-box {
@@ -284,7 +293,7 @@ ul {
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -317,9 +326,11 @@ span {
   #letsConnect {
     margin-top: 25%;
   }
+
   .biopic {
     width: 150px;
   }
+
   .welcome-message {
     display: none;
   }
@@ -368,30 +379,30 @@ span {
     display: block;
   }
 }
-.map-marker{
+.map-marker {
   font-family: 'Sancreek', cursive;
   font-size: 1.5em;
-  background-color: #FF4D4D;
+  background-color: #ff4d4d;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
 
-.therm{
+.therm {
   font-size: 2em;
   color: red;
 }
 
-#temp{
+.temp-fahr {
   font-size: 2em;
 }
 
-.weatherConditions{
+.weatherConditions {
   text-align: center;
   border: 1px solid black;
 }
 
-.carouselPlace{
+.carouselPlace {
   border: 2px solid black;
   width: 500px;
   -moz-box-shadow: 0 0 30px #777777;
@@ -415,58 +426,58 @@ span {
   height: 300px;
 }
 
-.image-description{
+.image-description {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
-.major-field{
+.major-field {
   font-style: italic;
   margin: 5px 0 0 20px;
 }
 
- .honors-dissertation{
+ .honors-dissertation {
   margin: 5px 0 0 20px;
   cursor: help;
  }
 
- .job-description{
+ .job-description {
     margin: 0 0 30px 20px;
  }
 
- .foot-box{
+ .foot-box {
    background-image: url(css-images/footer-metal.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
    padding: 10px 0 25px 0;
  }
 
- .footer-text{
+ .footer-text {
   font-size: 1.8em;
   font-weight: 500;
   text-shadow: 1px 1px 3px black;
-  color: #1199C3;
+  color: #1199c3;
 }
 
-.logo-box{
+.logo-box {
   float: right;
 }
 
-.map-border{
+.map-border {
   border-style: ridge;
   border-width: 15px;
 }
 
-.verified{
+.verified {
   padding: 5px;
 }
 
-.ibutton{
+.ibutton {
   padding: 5px;
   font-size: .8em;
 }
 
-.design-description{
+.design-description {
   color: #999999;
   font-size: 0.8em;
 }

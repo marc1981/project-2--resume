@@ -69,7 +69,7 @@ var carouselPlace = '<div class="flex-box"> \
 These are HTML strings. As part of the course, you'll be using JavaScript functions
 replace the %data% placeholder text you see in them.
 */
-var HTMLheaderName = '<h1 id="name">%data%</h1>';
+var HTMLheaderName = '<h1 id="name" class="name-alter">%data%</h1>';
 var HTMLheaderRole = '<br><p class="roleHeader">%data%</p>';
 
 var HTMLcontactGenericIcon = '<li class="flex-item icons">%contact%</li>';
@@ -84,7 +84,7 @@ var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</sp
 var HTMLbioPic = '<div class="col-md-4"><img src="%data%" class="biopic" id="#biop" data-toggle="modal" data-target="#biopicDescription"></div>';
 var HTMLwelcomeMsg = '<div class="welcome-message">%data%</div>';
 
-var HTMLskillsStart = '<h3 id="skillsH3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>'+ carouselPlace;
+var HTMLskillsStart = '<h3 id="skillsH3" class="skills-label">Skills at a Glance:</h3><ul id="skills" class="flex-box skill-list"></ul>'+ carouselPlace;
 var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
@@ -249,7 +249,7 @@ function initializeMap() {
     }
 
     var infoWindow = new google.maps.InfoWindow({
-      content: '<div class="map-marker">' + name + '</div><br><div class="weatherConditions"><span id="condition"></span><br><i class="wi wi-thermometer therm"></i><span id="temp"></span><i class="wi wi-fahrenheit therm"></i><br><span id="humid"></span></div>'
+      content: '<div class="map-marker">' + name + '</div><br><div class="weatherConditions"><span id="condition"></span><br><i class="wi wi-thermometer therm"></i><span id="temp" class="temp-fahr"></span><i class="wi wi-fahrenheit therm"></i><br><span id="humid"></span></div>'
     });
 
 //modified function that closes any open marker before opening another
