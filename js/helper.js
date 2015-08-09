@@ -42,7 +42,7 @@ var carouselPlace = '<div class="flex-box"> \
                                   </div>\
                               </div> \
                               <div class="item"> \
-                                <img class="slide-image" src="images/Color_Wheel.png" style="height:210px"> \
+                                <img class="slide-image" src="images/Color_Wheel.jpg" style="height:210px"> \
                                   <div class="carousel-caption"> \
                                     <h3>Graphic Design</h3> \
                                     <p class="image-description">Proficient with Adobe Photoshop, Illustrator, InDesign and Edge.</p> \
@@ -75,7 +75,7 @@ var HTMLheaderRole = '<br><p class="roleHeader">%data%</p>';
 var HTMLcontactGenericIcon = '<li class="flex-item icons">%contact%</li>';
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="orange-text email-text">email</span><span class="white-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><span class="orange-text">email</span><span class="white-text email-text">%data%</span></li>';
 var HTMLtwitter = '<li class="flex-item"><span class="orange-text">twitter</span><span class="white-text">%data%</span></li>';
 var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
