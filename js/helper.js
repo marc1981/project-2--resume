@@ -225,7 +225,7 @@ function initializeMap() {
     var lon = placeData.geometry.location.lng();  // longitude from the place service
     var name = placeData.formatted_address;   // name of the place from the place service
     var bounds = window.mapBounds;            // current boundaries of the map window
-      var urlWeather = 'http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}?format=application/json';
+      var urlWeather = 'http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=186bbff9f490672292f04f4ce8ca1dc9';
       var formattedurlWeather = urlWeather.replace('{lat}', lat).replace('{lon}', lon);
     // marker is an object with additional data about the pin for a single location
     var marker = new google.maps.Marker({
