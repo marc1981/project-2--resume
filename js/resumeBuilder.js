@@ -12,8 +12,8 @@ var bio = {
 								"twitter": '<a class="icons" href="https://twitter.com/MarcTAnderson"><i class="fa fa-twitter-square fa-3x"></i></a>'
 							},
 			"bioPic" : "images/marc.jpg",
-			"welcome_message" : "Fake it 'til you make it.",
-			"skills" : ["Web Design", "Biological Research", "Writing", "Basic Graphic Design", "Adobe Suite"]
+			"welcome_message" : "Keep moving forward.",
+			"skills" : ["Web Design", "Biological Research", "Writing", "Digital Art", "Adobe Suite"]
 };
 
 /*education object*/
@@ -52,7 +52,7 @@ var continuingEducation = {
 									"title" : "Front End Web Developer Nanodegree",
 									"school" : "Udacity",
 									"website" : "https://www.udacity.com",
-									"dates" : "July 2015 - Present",
+									"dates" : "July 2015 - January 2016",
 									"url" : "https://www.udacity.com"
 								},
 								{
