@@ -44,7 +44,7 @@ var carouselPlace = '<div class="flex-box"> \
                               <div class="item"> \
                                 <img class="slide-image" src="images/Color_Wheel.jpg" style="height:210px"> \
                                   <div class="carousel-caption"> \
-                                    <h3>Graphic Design</h3> \
+                                    <h3>Digital Art</h3> \
                                     <p class="image-description">Proficient with Adobe Photoshop, Illustrator, InDesign and Edge.</p> \
                                   </div> \
                               </div> \
