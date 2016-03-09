@@ -52,7 +52,7 @@ var continuingEducation = {
 									"title" : "Front End Web Developer Nanodegree",
 									"school" : "Udacity",
 									"website" : "https://www.udacity.com",
-									"dates" : "July 2015 - Present",
+									"dates" : "July 2015 - January 2016",
 									"url" : "https://www.udacity.com"
 								},
 								{
