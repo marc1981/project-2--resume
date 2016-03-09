@@ -53,14 +53,14 @@ var continuingEducation = {
 									"school" : "Udacity",
 									"website" : "https://www.udacity.com",
 									"dates" : "July 2015 - January 2016",
-									"url" : "https://www.udacity.com"
+									"url" : "https://profiles.udacity.com/u/marcanderson"
 								},
 								{
 									"title" : "Introduction to Programming Nanodegree",
 									"school" : "Udacity",
 									"website" : "https://www.udacity.com",
 									"dates" : "February 2015 - June 2015",
-									"url" : "https://www.udacity.com"
+									"url" : "https://profiles.udacity.com/u/marcanderson"
 								},
 								{
 									"title" : "Learn JavaScript and jQuery From Scratch",
@@ -175,12 +175,6 @@ var designs = {
 										"design_image" : "images/banner-low-res.png",
 										"design_url" : "html/banner.html",
 										"design_description" : "A Mock Banner (e.g. used on a brochure)"
-									},
-									{
-										"design_name" : "Simple GIF Animations",
-										"design_image" : "images/animation2.gif",
-										"design_url" : "html/robot.html",
-										"design_description" : "Robot GIF"
 									},
 									{
 										"design_name" : "Vector Graphics for Video Game Sprites",
